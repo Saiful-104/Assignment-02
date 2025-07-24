@@ -29,6 +29,7 @@ body {
   max-width: 1440px;
  
   margin: auto;
+  border: 2px solid red;
 }
 
 /* Shared Colors */
@@ -158,13 +159,7 @@ body {
   margin-bottom: 50px;
 }
 
- /* .plants-grid{
-  display: grid;
-  grid-template-columns: repeat(4,1fr);
-  gap:1.2rem;
-  width: 270px;
-  height: 485px;
- } */
+
   .plants-grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -201,43 +196,6 @@ body {
      padding: 0.75rem 1.5rem;
  }
 
- /* flower section */
-   /* .flower{
-    margin-bottom: 210px;
-   }
- .f-img{
-  width: 100%;
-  height: auto;
- }
- .container {
-  max-width: 1140px;
-  margin: 0 auto;
-  padding: 0 1rem;
-} */
-
- /* .main-flower {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 2rem;
-} */
- /* .main-flower {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr); /* দুই কলামে ভাগ */
-  /* align-items: center;
-  gap: 30px;
-  padding: 20px;
-}
-.f-h2 {
-  font-size: 28px;
-  margin-bottom: 10px;
-}
-
-.flower ul {
-  padding-left: 20px;
-  line-height: 1.6;
-}  */
-  
  
  .flower {
   /* padding: 60px 20px; */
@@ -296,4 +254,92 @@ body {
 
 .flower-list li {
   margin-bottom: 1.1rem;
+}
+
+/* deals section */
+
+.deals{
+  margin-top: 125px;
+  text-align: center;
+   padding: 40px 20px;
+   margin-bottom: 20px;
+}
+.de-dr{
+   width: 780px;
+   height: 54px;
+    margin-left: 300px;
+   margin-right: 500px; 
+   text-align: center;
+}
+.del{
+  text-align: center;
+}
+
+/*discount  */
+    .pic {
+   max-width: 1440px;
+   margin-left: 150px;
+   margin-right: 150px;
+   margin-bottom: 100px;
+
+
+}
+
+.pic .fa {
+  display: grid;
+  grid-template-columns: 1fr 1.5fr;
+  gap: 20px;
+
+}
+ .a{
+  border-radius: 16px;
+ }
+ .b{
+   border-radius: 22px;
+ }
+.left-side {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.deal-box {
+  position: relative;
+  overflow: hidden;
+}
+
+.deal-box img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.deal-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+   color: white;
+  text-align: center;
+}
+
+.deal-text h2,
+.deal-text h3 {
+  text-transform: none;
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+ 
+}
+
+.deal-text a {
+  color: white;
+  font-weight: bold;
+  text-decoration: underline;
+  font-size: 1rem;
+}
+
+.right-side .zabo {
+  height: 100%;
 }
