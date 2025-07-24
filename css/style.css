@@ -1,0 +1,121 @@
+/* Reset and Base Styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: white;
+  max-width: 1440px;
+ 
+  margin: auto;
+}
+
+/* Shared Colors */
+.sh-color {
+  color: #8987A1;
+}
+
+.second-sh-color {
+  color: #E95A08;
+}
+
+/* Header Styles */
+.logo {
+  width: 135px;
+  height: 82px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.site-header {
+  margin: 35px 150px;
+  padding: 1rem 0;
+  background-color: white;
+  margin-bottom: 130px;
+}
+
+.site-header .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.main-nav ul {
+  display: flex;
+  list-style: none;
+  gap: 2rem;
+}
+
+.main-nav a {
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.home {
+  color: #252432;
+}
+
+.cart {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.cart i {
+  font-size: 1.2rem;
+  margin-right: 0.4rem;
+  color: #000;
+}
+
+.cart-text {
+  color: #000000;
+}
+
+/* Hero Section */
+.hero {
+  margin: 35px 150px;
+  padding-right: 20px;
+}
+
+.hero-inner {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.hero-text {
+  flex: 1;
+  width: 517px;
+  height: 300px;
+}
+
+.hero-text h1 {
+  font-size: 3.8rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.hero-dec {
+  color: #000000;
+  opacity: 0.5;
+  font-size: 1.3rem;
+}
+
+.hero-img {
+  flex: 1;
+  width: 570px;
+  height: 355px;
+  text-align: center;
+}
+
+.hero-img img {
+  width: 100%;
+  height: auto;
+}
+
