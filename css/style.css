@@ -303,7 +303,7 @@ body {
   gap: 20px;
 }
 
-.deal-box {
+.deal-b {
   position: relative;
   overflow: hidden;
 }
@@ -314,22 +314,13 @@ body {
   object-fit: cover;
   display: block;
 }
-
-.deal-text {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-   color: white;
-  text-align: center;
-}
-
 .deal-text h2,
 .deal-text h3 {
-  text-transform: none;
+ 
   font-size: 1.2rem;
   font-weight: bold;
   margin-bottom: 10px;
+   text-transform: none!important;
  
 }
 
@@ -342,4 +333,59 @@ body {
 
 .right-side .zabo {
   height: 100%;
+}
+.deal-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+   color: white;
+  text-align: center;
+}
+
+/* join section */
+
+.join{
+    max-width: 1440px;
+    height: 530px;
+    margin-bottom: 60px;
+   background-image: url('/img/news-letter-bg.png');
+    display: flex;
+     justify-content: center;
+     align-items: center;
+      position: relative;
+  text-align: center;
+
+}
+.j-main{
+  width: 830px;;
+  height: 155px;
+}
+.j-h1{
+  color: white;
+  font-weight: bold;
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+.j-em input{
+  border: none;
+  padding: 20px 8px;
+  width: 644px;
+  /* border-radius: 10px; */
+  gap:10px;
+  font-size: 0.9rem;
+  font-weight: 400;
+  border-radius: 2px;
+
+}
+
+.j-em button{
+  padding: 22px 45px;
+  border: none;
+  background-color: #E95A08;
+  color: white;
+  font-weight: 500;
+  font-size: 0.9rem;
+  border-radius: 5px;
+
 }
